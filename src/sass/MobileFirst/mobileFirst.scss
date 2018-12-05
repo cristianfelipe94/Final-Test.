@@ -1,30 +1,43 @@
+
+// Universal Styles.
+////////////////////
 * {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+}
 
 body {
   background-color: #fff;
   width: 100vw;
   height: 100vh;
   margin: 0;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+}
 
+// Main wrapper.
+////////////////
 .mainWrapper {
   margin: 2% auto 0;
-  width: 90vw; }
+  width: 90vw;
+}
 
 .headerBanner::after {
   clear: both;
   content: '';
-  display: block; }
+  display: block;
+}
 
 .folioIcon {
   float: left;
-  width: 170px; }
+  width: 170px;
+}
 
+// Burger Menu styles.
+//////////////////////
 .burgerIcon {
   float: right;
   width: 25px;
-  padding: 4%; }
+  padding: 4%;
+}
 
 .tabsMenu a {
   display: none;
@@ -32,116 +45,131 @@ body {
   text-decoration: none;
   padding-top: 5px;
   font-weight: bold;
-  color: #403d40; }
-  .tabsMenu a:hover {
+  color: #403d40;
+  &:hover {
     color: #f4beef;
-    transition: 0.5s; }
+    transition: 0.5s;
+  }
+}
 
 .burgerWrapper {
   cursor: pointer;
   width: 25px;
   float: right;
-  height: 25px; }
-  .burgerWrapper:hover > .tabsMenu > a {
-    display: inline-block; }
+  height: 25px;
+  &:hover > .tabsMenu > a {
+    display: inline-block;
+  }
+}
 
+// First Content Block.
+///////////////////////
 .titleWrapper {
-  position: relative; }
+  position: relative;
+}
 
 .backgroundIcons {
   position: absolute;
-  width: 35px; }
+  width: 35px;
+}
 
 .thunderIconTop {
-  left: 80%; }
-
+  left: 80%;
+}
 .waterIconTop {
-  left: 50%; }
-
+  left: 50%;
+}
 .arrowIconTop {
-  top: 100%; }
-
+  top: 100%;
+}
 .wavesIconTop {
   top: 100%;
-  left: 90%; }
+  left: 90%;
+}
 
 .welcomeTitle {
   color: #403d40;
   font-size: 5rem;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
 
 .contentParagraph {
   color: black;
   opacity: 0.6;
   font-size: 0.7rem;
-  margin-top: 0; }
+  margin-top: 0;
+}
 
+
+// Image Wrapper.
+/////////////////
 .imgWrapper {
   margin: 15% 0;
   display: inline-block;
-  text-align: center; }
+  text-align: center;
+}
 
 .img {
   width: 90%;
-  opacity: 0.6; }
-  .img:hover {
-    opacity: 1; }
+  opacity: 0.6;
+  &:hover {
+    opacity: 1;
+  }
+}
 
+// Footer styles.
+/////////////////
 .footerBlock {
   display: inline-block;
   text-align: center;
-  position: relative; }
+  position: relative;
+}
 
 .thunderIconButtom {
-  left: 30%; }
-
+  left: 30%;
+}
 .waterIconButtom {
   left: 70%;
-  top: 30%; }
-
+  top: 30%;
+}
 .arrowIconButtom {
   top: 90%;
-  left: 20%; }
-
+  left: 20%;
+}
 .wavesIconButtom {
   top: 60%;
-  left: 90%; }
+  left: 90%;
+}
 
 .phoneNumber {
   color: #403d40;
   font-weight: bold;
-  font-size: 2.2rem; }
-  .phoneNumber:hover {
-    color: #1fafb7; }
+  font-size: 2.2rem;
+  &:hover {
+    color: #1fafb7;
+  }
+}
 
 .hyperLink {
   color: #79e5e9;
-  text-decoration: none; }
-  .hyperLink:hover {
-    color: #1fafb7; }
+  text-decoration: none;
+  &:hover {
+    color: #1fafb7;
+  }
+}
 
 .socialMediaBlock {
-  margin: 10% 0; }
+  margin: 10% 0;
+}
 
 .socialMedia {
   text-decoration: none;
   text-transform: uppercase;
   color: #403d40;
   font-weight: bold;
-  margin: 4%; }
-  .socialMedia:hover {
+  margin: 4%;
+  &:hover {
     color: #f4beef;
-    transition: 0.5s; }
-
-@media only screen and (min-width: 640px) {
-  html {
-    font-size: 1.3em; }
-
-  .img {
-    width: 50%;
-    float: left; }
-
-  .mainWrapper {
-    max-width: 940px; } }
-
-/*# sourceMappingURL=style.css.map */
+    transition: 0.5s;
+  }
+}

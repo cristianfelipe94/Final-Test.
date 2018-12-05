@@ -1,136 +1,69 @@
-* {
-  font-family: 'Montserrat', sans-serif; }
+/*
+Error: Undefined variable: "$mainFontFamily".
+        on line 5 of sass/MobileFirst/mobileFirst.scss
 
-body {
-  background-color: #fff;
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-  overflow-x: hidden; }
+1: 
+2: // Universal Styles.
+3: ////////////////////
+4: * {
+5:   font-family: $mainFontFamily;
+6: }
+7: 
+8: body {
+9:   background-color: $mainBackgroundColor;
+10:   width: 100vw;
 
-.mainWrapper {
-  margin: 2% auto 0;
-  width: 90vw; }
-
-.headerBanner::after {
-  clear: both;
-  content: '';
-  display: block; }
-
-.folioIcon {
-  float: left;
-  width: 170px; }
-
-.burgerIcon {
-  float: right;
-  width: 25px;
-  padding: 4%; }
-
-.tabsMenu a {
-  display: none;
-  float: right;
-  text-decoration: none;
-  padding-top: 5px;
-  font-weight: bold;
-  color: #403d40; }
-  .tabsMenu a:hover {
-    color: #f4beef;
-    transition: 0.5s; }
-
-.burgerWrapper {
-  cursor: pointer;
-  width: 25px;
-  float: right;
-  height: 25px; }
-  .burgerWrapper:hover > .tabsMenu > a {
-    display: inline-block; }
-
-.titleWrapper {
-  position: relative; }
-
-.backgroundIcons {
-  position: absolute;
-  width: 35px; }
-
-.thunderIconTop {
-  left: 80%; }
-
-.waterIconTop {
-  left: 50%; }
-
-.arrowIconTop {
-  top: 100%; }
-
-.wavesIconTop {
-  top: 100%;
-  left: 90%; }
-
-.welcomeTitle {
-  color: #403d40;
-  font-size: 5rem;
-  margin-bottom: 0; }
-
-.contentParagraph {
-  color: black;
-  opacity: 0.6;
-  font-size: 0.7rem;
-  margin-top: 0; }
-
-.imgWrapper {
-  margin: 15% 0;
-  display: inline-block;
-  text-align: center; }
-
-.img {
-  width: 90%;
-  opacity: 0.6; }
-  .img:hover {
-    opacity: 1; }
-
-.footerBlock {
-  display: inline-block;
-  text-align: center;
-  position: relative; }
-
-.thunderIconButtom {
-  left: 30%; }
-
-.waterIconButtom {
-  left: 70%;
-  top: 30%; }
-
-.arrowIconButtom {
-  top: 90%;
-  left: 20%; }
-
-.wavesIconButtom {
-  top: 60%;
-  left: 90%; }
-
-.phoneNumber {
-  color: #403d40;
-  font-weight: bold;
-  font-size: 2.2rem; }
-  .phoneNumber:hover {
-    color: #1fafb7; }
-
-.hyperLink {
-  color: #79e5e9;
-  text-decoration: none; }
-  .hyperLink:hover {
-    color: #1fafb7; }
-
-.socialMediaBlock {
-  margin: 10% 0; }
-
-.socialMedia {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #403d40;
-  font-weight: bold;
-  margin: 4%; }
-  .socialMedia:hover {
-    color: #f4beef;
-    transition: 0.5s; }
-
-/*# sourceMappingURL=mobileFirst.css.map */
+Backtrace:
+sass/MobileFirst/mobileFirst.scss:5
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$mainFontFamily\".\A         on line 5 of sass/MobileFirst/mobileFirst.scss\A \A 1: \A 2: // Universal Styles.\A 3: ////////////////////\A 4: * {\A 5:   font-family: $mainFontFamily;\A 6: }\A 7: \A 8: body {\A 9:   background-color: $mainBackgroundColor;\A 10:   width: 100vw;"; }

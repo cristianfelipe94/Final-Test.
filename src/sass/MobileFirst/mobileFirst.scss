@@ -2,11 +2,11 @@
 // Universal Styles.
 ////////////////////
 * {
-  font-family: 'Montserrat', sans-serif;
+  font-family: $mainFontFamily;
 }
 
 body {
-  background-color: #fff;
+  background-color: $mainBackgroundColor;
   width: 100vw;
   height: 100vh;
   margin: 0;
@@ -45,9 +45,9 @@ body {
   text-decoration: none;
   padding-top: 5px;
   font-weight: bold;
-  color: #403d40;
+  color: $mainFontColor;
   &:hover {
-    color: #f4beef;
+    color: $pinkHover;
     transition: 0.5s;
   }
 }
@@ -88,13 +88,13 @@ body {
 }
 
 .welcomeTitle {
-  color: #403d40;
+  color: $mainFontColor;
   font-size: 5rem;
   margin-bottom: 0;
 }
 
 .contentParagraph {
-  color: black;
+  color: $mainFontColor;
   opacity: 0.6;
   font-size: 0.7rem;
   margin-top: 0;
@@ -142,19 +142,19 @@ body {
 }
 
 .phoneNumber {
-  color: #403d40;
+  color: $mainFontColor;
   font-weight: bold;
   font-size: 2.2rem;
   &:hover {
-    color: #1fafb7;
+    color: $blueHover;
   }
 }
 
 .hyperLink {
-  color: #79e5e9;
+  color: $lightBlueFontColor;
   text-decoration: none;
   &:hover {
-    color: #1fafb7;
+    color: $blueHover;
   }
 }
 
@@ -165,11 +165,11 @@ body {
 .socialMedia {
   text-decoration: none;
   text-transform: uppercase;
-  color: #403d40;
+  color: $mainFontColor;
   font-weight: bold;
   margin: 4%;
   &:hover {
-    color: #f4beef;
+    color: $pinkHover;
     transition: 0.5s;
   }
 }

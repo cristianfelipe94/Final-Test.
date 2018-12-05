@@ -1,5 +1,5 @@
 * {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: "Montserrat", sans-serif; }
 
 body {
   background-color: #fff;
@@ -71,7 +71,7 @@ body {
   margin-bottom: 0; }
 
 .contentParagraph {
-  color: black;
+  color: #403d40;
   opacity: 0.6;
   font-size: 0.7rem;
   margin-top: 0; }

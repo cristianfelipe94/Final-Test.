@@ -1,3 +1,83 @@
 * {
   font-family: 'Montserrat', sans-serif;
 }
+
+body {
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.mainWrapper {
+  margin: 0 auto;
+  width: 90vw;
+}
+
+.headerBanner::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.folioIcon {
+  float: left;
+  width: 170px;
+}
+
+.burgerIcon {
+  float: right;
+  width: 25px;
+  padding: 4%;
+}
+
+.welcomeTitle {
+  color: #403d40;
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+
+.contentParagraph {
+  color: black;
+  opacity: 0.5;
+  font-size: 0.7rem;
+  margin-top: 0;
+}
+
+.imgWrapper {
+  margin: 15% 0;
+  display: inline-block;
+}
+
+.img {
+  width: 50%;
+  float: left;
+}
+
+.footerBlock {
+  display: inline-block;
+  text-align: center;
+}
+
+.phoneNumber {
+  color: #403d40;
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+
+.hyperLink {
+  color: #79e5e9;
+}
+
+.socialMediaBlock {
+  margin: 10% 0;
+}
+
+.socialMedia {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #403d40;
+  font-weight: bold;
+  margin: 4%;
+}
